@@ -27,3 +27,23 @@
 7. PDF → PyMuPDF / LangChain
 
 # 📁 Project Structure
+
+ai-dashboard/
+│
+├── backend/
+│   ├── fastapi_app/
+│   │   ├── main.py
+│   │   ├── nlp.py
+│   │   ├── image.py
+│   │   ├── pdf.py
+│
+├── frontend/
+│   ├── streamlit_app.py
+│
+├── admin/
+│   ├── flask_app.py
+│
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── .github/workflows/deploy.yml
